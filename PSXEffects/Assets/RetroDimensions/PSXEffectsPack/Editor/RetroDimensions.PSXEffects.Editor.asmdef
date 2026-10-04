@@ -1,0 +1,7 @@
+{
+  "name": "RetroDimensions.PSXEffects.Editor",
+  "rootNamespace": "RetroDimensions.PSXEffects.Editor",
+  "references": ["RetroDimensions.PSXEffects"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

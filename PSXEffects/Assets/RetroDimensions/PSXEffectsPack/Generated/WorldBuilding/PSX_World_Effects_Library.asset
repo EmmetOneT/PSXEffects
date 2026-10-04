@@ -1,0 +1,441 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94892ecd5e8459aa9248aa83abfb56e4, type: 3}
+  m_Name: PSX_World_Effects_Library
+  m_EditorClassIdentifier: 
+  entries:
+  - id: Fire
+    category: Originals
+    displayName: Original fire
+    description: The original v0.1 looping prototype.
+    prefab: {fileID: 7690699628647981081, guid: d37a56729cd86f2418d191f41f71bfeb, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Fire_Smoke
+    category: Originals
+    displayName: Original fire and smoke
+    description: The original v0.1 looping prototype.
+    prefab: {fileID: 428722850788364512, guid: 0461310aadf776241853650d138a8bc6, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Smoke
+    category: Originals
+    displayName: Original smoke
+    description: The original v0.1 looping prototype.
+    prefab: {fileID: 8452654368143491940, guid: 16f03082a9c331346b64ec5dd1a3944f, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Candle
+    category: Fire
+    displayName: Candle
+    description: Small steady flame for candles and lanterns.
+    prefab: {fileID: 7784233234868833728, guid: 4f6d46a3c24d370449a65e42d1d64777, type: 3}
+    oneShot: 0
+    focusHeight: 0.3
+    cameraDistance: 3
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Torch
+    category: Fire
+    displayName: Torch
+    description: Narrow flame, light smoke and drifting embers.
+    prefab: {fileID: 3210441908037739888, guid: 5923442f9e3d0a145982af2c19cd6bab, type: 3}
+    oneShot: 0
+    focusHeight: 0.8
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Campfire
+    category: Fire
+    displayName: Campfire
+    description: Low fire with smoke and embers for campsites.
+    prefab: {fileID: 362799597425177735, guid: e574ab3210361544ab6592f97d92d25e, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Bonfire
+    category: Fire
+    displayName: Bonfire
+    description: Tall layered flames, a heavy plume and embers.
+    prefab: {fileID: 1676822211432676066, guid: f7f9f2eda1878b7408c7d2f068d30f1c, type: 3}
+    oneShot: 0
+    focusHeight: 1.8
+    cameraDistance: 8
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: FireJet
+    category: Fire
+    displayName: Fire jet
+    description: A narrow pressurised flame stream for furnace vents or damaged gas
+      pipes. Rotate the source to aim it.
+    prefab: {fileID: 6473234409878016938, guid: 5e97443bcc524894c949f83d7b921121, type: 3}
+    oneShot: 0
+    focusHeight: 0.8
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: GroundFlames
+    category: Fire
+    displayName: Ground flames
+    description: A wide burning patch with occasional embers.
+    prefab: {fileID: 8170300299021651582, guid: 8b3a61cd825a4114ba2174b71ec9e963, type: 3}
+    oneShot: 0
+    focusHeight: 0.6
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: BurningDebris
+    category: Fire
+    displayName: Burning debris
+    description: Scattered flame pockets and smoke around a damaged prop.
+    prefab: {fileID: 3067457340924547366, guid: 0844b7ad7d4361f42865932dda22bad9, type: 3}
+    oneShot: 0
+    focusHeight: 0.8
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: ThinSmoke
+    category: Smoke
+    displayName: Thin smoke
+    description: Light wisps for incense, lamps and warm machinery.
+    prefab: {fileID: 1952939404456215599, guid: 22c7035ff3327f94f99ed95b12be2b29, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: ThickSmoke
+    category: Smoke
+    displayName: Thick smoke
+    description: Dense expanding puffs for damaged machinery.
+    prefab: {fileID: 2585185802806749255, guid: d20090daec7ccf94b85c8d1a2a2e6fdb, type: 3}
+    oneShot: 0
+    focusHeight: 1.3
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: ChimneyPlume
+    category: Smoke
+    displayName: Chimney plume
+    description: Tall drifting smoke from a chimney outlet.
+    prefab: {fileID: 3648001665387921545, guid: 7227a5af69e1cb44e8fd0e0ba91eab91, type: 3}
+    oneShot: 0
+    focusHeight: 2
+    cameraDistance: 8
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Steam
+    category: Smoke
+    displayName: Steam
+    description: Soft pale steam for hot surfaces and pipes.
+    prefab: {fileID: 3339908285091879559, guid: 575c8ecd37232e144b92956ef934c77c, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: VentSteam
+    category: Smoke
+    displayName: Vent steam
+    description: Pressurised steam blowing sideways from a vent.
+    prefab: {fileID: 5262834510647251399, guid: d8a4203b17ae0d543bf892c745dab262, type: 3}
+    oneShot: 0
+    focusHeight: 0.7
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: PoisonCloud
+    category: Smoke
+    displayName: Poison cloud
+    description: Low green fumes for swamps and contaminated areas.
+    prefab: {fileID: 3201827153245784153, guid: d4a1ac40c1df6e147ad7da3bd9dbaa58, type: 3}
+    oneShot: 0
+    focusHeight: 0.6
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: SparkBurst
+    category: Sparks
+    displayName: Spark burst
+    description: A brief shower for a switch, cable or machine fault.
+    prefab: {fileID: 2922769033047509206, guid: 41dceb85db529714fb72657d380748a7, type: 3}
+    oneShot: 1
+    focusHeight: 0.7
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: WeldingSparks
+    category: Sparks
+    displayName: Welding sparks
+    description: Continuous hot sparks from workshop equipment.
+    prefab: {fileID: 7803127008569068548, guid: 82d7ad80088a90f4fab5dd63eba63d6d, type: 3}
+    oneShot: 0
+    focusHeight: 0.8
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: ElectricalSparks
+    category: Sparks
+    displayName: Electrical sparks
+    description: A jittering arc and sparks between nearby contacts.
+    prefab: {fileID: 8833645523479021576, guid: d7e9cdf8affd39046a51da413bda86fe, type: 3}
+    oneShot: 0
+    focusHeight: 0.8
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: EmberTrail
+    category: Sparks
+    displayName: Ember trail
+    description: Embers emitted along a moving prop. The gallery moves the source
+      automatically.
+    prefab: {fileID: 5702508880934142170, guid: d89d137b0930c494f9cadb698b80839d, type: 3}
+    oneShot: 0
+    focusHeight: 0.6
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: SmallBlast
+    category: Explosions
+    displayName: Small blast
+    description: A small environmental pressure burst with smoke and sparks.
+    prefab: {fileID: 7208109479369285302, guid: 7be1e909236bd8b43b278743e0535159, type: 3}
+    oneShot: 1
+    focusHeight: 0.9
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: LargeFireball
+    category: Explosions
+    displayName: Large fireball
+    description: Layered fire, smoke and embers for an environmental accident.
+    prefab: {fileID: 7645939455999059488, guid: 115d028d651174c409430a3cec6a71b8, type: 3}
+    oneShot: 1
+    focusHeight: 1.3
+    cameraDistance: 8
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: DebrisBurst
+    category: Explosions
+    displayName: Debris burst
+    description: Flying stone chips and dust for a crumbling prop.
+    prefab: {fileID: 6669113311326725410, guid: ea04843d68b241644b3094aa5da5e008, type: 3}
+    oneShot: 1
+    focusHeight: 0.8
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Shockwave
+    category: Explosions
+    displayName: Shockwave
+    description: An expanding flat ring for a pressure pulse or world event.
+    prefab: {fileID: 1933374970280774622, guid: 9b63102385b09db4bbccf9ba74444f09, type: 3}
+    oneShot: 1
+    focusHeight: 0.3
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Splash
+    category: Water
+    displayName: Splash
+    description: A quick spray with a surface ripple.
+    prefab: {fileID: 2219293671064806415, guid: 06656cd1f6a39e845af0cf02749f5e78, type: 3}
+    oneShot: 1
+    focusHeight: 0.5
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Ripples
+    category: Water
+    displayName: Ripples
+    description: Repeated expanding rings on a water surface.
+    prefab: {fileID: 890906166705760362, guid: 9c63e3b587fd9cf44b613ef5d9ad69aa, type: 3}
+    oneShot: 0
+    focusHeight: 0.1
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Drips
+    category: Water
+    displayName: Drips
+    description: Falling droplets with ripples beneath the source.
+    prefab: {fileID: 6433807668634643018, guid: bba936032d6a36f459a93b48ab9210b1, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: FountainSpray
+    category: Water
+    displayName: Fountain spray
+    description: Upward water spray with droplets and surface foam.
+    prefab: {fileID: 901097646254839273, guid: 102cf0c9734d86545bf5673ae516d460, type: 3}
+    oneShot: 0
+    focusHeight: 1.2
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Bubbles
+    category: Water
+    displayName: Bubbles
+    description: Rising bubbles for submerged props and pools.
+    prefab: {fileID: 5806939237818387244, guid: 2dc247c5376b16945ad576e1c1480ab0, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: SmallWaterfall
+    category: Water
+    displayName: Small waterfall
+    description: A narrow falling curtain with foam and mist at the base.
+    prefab: {fileID: 614260766842367318, guid: a989fe10b4d82774da4c83ae790eaa2b, type: 3}
+    oneShot: 0
+    focusHeight: 1.3
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: GlowingOrb
+    category: Energy
+    displayName: Glowing orb
+    description: A hovering luminous orb with orbiting motes.
+    prefab: {fileID: 2877973749086676619, guid: b98f4b8a72b622a4e8d2f3ba2069308c, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: EnergyBeam
+    category: Energy
+    displayName: Energy beam
+    description: A continuous connection between devices or magical props.
+    prefab: {fileID: 7248715317962546536, guid: 260564345e4e8c34594a5bd070c67f01, type: 3}
+    oneShot: 0
+    focusHeight: 0.8
+    cameraDistance: 6
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: MagicBurst
+    category: Energy
+    displayName: Magic burst
+    description: A short starburst and expanding rune ring.
+    prefab: {fileID: 8508210649956267969, guid: 3a18c27066204d14f8887e03fd7f1d05, type: 3}
+    oneShot: 1
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: ChargingEffect
+    category: Energy
+    displayName: Charging effect
+    description: Motes drawn toward a glowing centre.
+    prefab: {fileID: 4708746234667258916, guid: f1cdf53adcbff3b49bcae5d51e94f75a, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Portal
+    category: Energy
+    displayName: Portal
+    description: An upright animated rune ring with swirling particles.
+    prefab: {fileID: 6648532779022171084, guid: 298c23126f0098a4e926ecaaa3b5db89, type: 3}
+    oneShot: 0
+    focusHeight: 1.1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Teleport
+    category: Energy
+    displayName: Teleport
+    description: A surface ring and vertical sparkle burst.
+    prefab: {fileID: 1575940820574137446, guid: 9819b6ce6e6176648b2e4c856ee790ab, type: 3}
+    oneShot: 1
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: PickupBurst
+    category: Feedback
+    displayName: Pickup burst
+    description: A warm sparkle burst when an object is collected.
+    prefab: {fileID: 9196108230836952821, guid: 0667725e4e4b3f34293d65031db276aa, type: 3}
+    oneShot: 1
+    focusHeight: 0.8
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: HealingGlow
+    category: Feedback
+    displayName: Healing glow
+    description: Gentle rising green motes around a restorative object.
+    prefab: {fileID: 8486532837580541568, guid: ce68915175513614f8f84017a8bb1d6c, type: 3}
+    oneShot: 0
+    focusHeight: 0.7
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: ObjectDissolve
+    category: Feedback
+    displayName: Object dissolve
+    description: Pixel dissolve on a sample block. Assign the included dissolve material
+      to your own prop.
+    prefab: {fileID: 5067068507184027495, guid: c940a7743614d1d4191097767c5ba783, type: 3}
+    oneShot: 1
+    focusHeight: 0.7
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Spawn
+    category: Feedback
+    displayName: Spawn
+    description: A sample block reveals through pixels and rising stars.
+    prefab: {fileID: 6868011744560168762, guid: 94a719055dc6354499112cd7fb473144, type: 3}
+    oneShot: 1
+    focusHeight: 0.7
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Despawn
+    category: Feedback
+    displayName: Despawn
+    description: A sample block dissolves into a brief sparkle cloud.
+    prefab: {fileID: 8739315556480821541, guid: a24ec7be87871204cbc16b72ed67823a, type: 3}
+    oneShot: 1
+    focusHeight: 0.7
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: FloatingDust
+    category: Atmosphere
+    displayName: Floating dust
+    description: Slow drifting dust in a small volume.
+    prefab: {fileID: 7715969103690914306, guid: 18409c66ef73c1c4da8326d053ef92dd, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: FootstepDust
+    category: Atmosphere
+    displayName: Footstep dust
+    description: A low dust puff for a footfall or small surface movement.
+    prefab: {fileID: 7554379767214147465, guid: 9286bf36f60b4984fb9378892fa98601, type: 3}
+    oneShot: 1
+    focusHeight: 0.3
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: ColdBreath
+    category: Atmosphere
+    displayName: Cold breath
+    description: A short repeating vapour puff from a character or creature.
+    prefab: {fileID: 4898301155895837677, guid: 2ca5347f458aad646b7daed89b2dd595, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: Fireflies
+    category: Atmosphere
+    displayName: Fireflies
+    description: Warm glowing points drifting through a small volume.
+    prefab: {fileID: 6403573685435990639, guid: 362d51b742c6b2045a80e089e83ee19a, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: InsectSwarm
+    category: Atmosphere
+    displayName: Insect swarm
+    description: Tiny winged sprites circulating near a prop.
+    prefab: {fileID: 3016805505939997287, guid: bbaac4d4ccf338d4bbe23f91ba22e179, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 4
+    previewRotation: {x: 0, y: 0, z: 0}
+  - id: FallingDebris
+    category: Atmosphere
+    displayName: Falling debris
+    description: Small drifting chips and dust beneath an unstable ceiling.
+    prefab: {fileID: 2684562998804024404, guid: 6b492e43e5fa45142b21f9546696e2c8, type: 3}
+    oneShot: 0
+    focusHeight: 1
+    cameraDistance: 5
+    previewRotation: {x: 0, y: 0, z: 0}
