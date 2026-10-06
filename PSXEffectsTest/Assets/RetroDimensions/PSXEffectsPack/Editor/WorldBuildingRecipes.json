@@ -1,0 +1,620 @@
+{
+  "recipes": [
+    {
+      "id": "Candle",
+      "category": "Fire",
+      "displayName": "Candle",
+      "description": "Small steady flame for candles and lanterns.",
+      "oneShot": false,
+      "focusHeight": 0.3,
+      "cameraDistance": 3,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Torch",
+      "category": "Fire",
+      "displayName": "Torch",
+      "description": "Narrow flame, light smoke and drifting embers.",
+      "oneShot": false,
+      "focusHeight": 0.8,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Campfire",
+      "category": "Fire",
+      "displayName": "Campfire",
+      "description": "Low fire with smoke and embers for campsites.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Bonfire",
+      "category": "Fire",
+      "displayName": "Bonfire",
+      "description": "Tall layered flames, a heavy plume and embers.",
+      "oneShot": false,
+      "focusHeight": 1.8,
+      "cameraDistance": 8,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "FireJet",
+      "category": "Fire",
+      "displayName": "Fire jet",
+      "description": "A narrow pressurised flame stream for furnace vents or damaged gas pipes. Rotate the source to aim it.",
+      "oneShot": false,
+      "focusHeight": 0.8,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "GroundFlames",
+      "category": "Fire",
+      "displayName": "Ground flames",
+      "description": "A wide burning patch with occasional embers.",
+      "oneShot": false,
+      "focusHeight": 0.6,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "BurningDebris",
+      "category": "Fire",
+      "displayName": "Burning debris",
+      "description": "Scattered flame pockets and smoke around a damaged prop.",
+      "oneShot": false,
+      "focusHeight": 0.8,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "ThinSmoke",
+      "category": "Smoke",
+      "displayName": "Thin smoke",
+      "description": "Light wisps for incense, lamps and warm machinery.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "ThickSmoke",
+      "category": "Smoke",
+      "displayName": "Thick smoke",
+      "description": "Dense expanding puffs for damaged machinery.",
+      "oneShot": false,
+      "focusHeight": 1.3,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "ChimneyPlume",
+      "category": "Smoke",
+      "displayName": "Chimney plume",
+      "description": "Tall drifting smoke from a chimney outlet.",
+      "oneShot": false,
+      "focusHeight": 2,
+      "cameraDistance": 8,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Steam",
+      "category": "Smoke",
+      "displayName": "Steam",
+      "description": "Soft pale steam for hot surfaces and pipes.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "VentSteam",
+      "category": "Smoke",
+      "displayName": "Vent steam",
+      "description": "Pressurised steam blowing sideways from a vent.",
+      "oneShot": false,
+      "focusHeight": 0.7,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "PoisonCloud",
+      "category": "Smoke",
+      "displayName": "Poison cloud",
+      "description": "Low green fumes for swamps and contaminated areas.",
+      "oneShot": false,
+      "focusHeight": 0.6,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "SparkBurst",
+      "category": "Sparks",
+      "displayName": "Spark burst",
+      "description": "A brief shower for a switch, cable or machine fault.",
+      "oneShot": true,
+      "focusHeight": 0.7,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "WeldingSparks",
+      "category": "Sparks",
+      "displayName": "Welding sparks",
+      "description": "Continuous hot sparks from workshop equipment.",
+      "oneShot": false,
+      "focusHeight": 0.8,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "ElectricalSparks",
+      "category": "Sparks",
+      "displayName": "Electrical sparks",
+      "description": "A jittering arc and sparks between nearby contacts.",
+      "oneShot": false,
+      "focusHeight": 0.8,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "EmberTrail",
+      "category": "Sparks",
+      "displayName": "Ember trail",
+      "description": "Embers emitted along a moving prop. The gallery moves the source automatically.",
+      "oneShot": false,
+      "focusHeight": 0.6,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "SmallBlast",
+      "category": "Explosions",
+      "displayName": "Small blast",
+      "description": "A small environmental pressure burst with smoke and sparks.",
+      "oneShot": true,
+      "focusHeight": 0.9,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "LargeFireball",
+      "category": "Explosions",
+      "displayName": "Large fireball",
+      "description": "Layered fire, smoke and embers for an environmental accident.",
+      "oneShot": true,
+      "focusHeight": 1.3,
+      "cameraDistance": 8,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "DebrisBurst",
+      "category": "Explosions",
+      "displayName": "Debris burst",
+      "description": "Flying stone chips and dust for a crumbling prop.",
+      "oneShot": true,
+      "focusHeight": 0.8,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Shockwave",
+      "category": "Explosions",
+      "displayName": "Shockwave",
+      "description": "An expanding flat ring for a pressure pulse or world event.",
+      "oneShot": true,
+      "focusHeight": 0.3,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Splash",
+      "category": "Water",
+      "displayName": "Splash",
+      "description": "A quick spray with a surface ripple.",
+      "oneShot": true,
+      "focusHeight": 0.5,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Ripples",
+      "category": "Water",
+      "displayName": "Ripples",
+      "description": "Repeated expanding rings on a water surface.",
+      "oneShot": false,
+      "focusHeight": 0.1,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Drips",
+      "category": "Water",
+      "displayName": "Drips",
+      "description": "Falling droplets with ripples beneath the source.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "FountainSpray",
+      "category": "Water",
+      "displayName": "Fountain spray",
+      "description": "Upward water spray with droplets and surface foam.",
+      "oneShot": false,
+      "focusHeight": 1.2,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Bubbles",
+      "category": "Water",
+      "displayName": "Bubbles",
+      "description": "Rising bubbles for submerged props and pools.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "SmallWaterfall",
+      "category": "Water",
+      "displayName": "Small waterfall",
+      "description": "A narrow falling curtain with foam and mist at the base.",
+      "oneShot": false,
+      "focusHeight": 1.3,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "GlowingOrb",
+      "category": "Energy",
+      "displayName": "Glowing orb",
+      "description": "A hovering luminous orb with orbiting motes.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "EnergyBeam",
+      "category": "Energy",
+      "displayName": "Energy beam",
+      "description": "A continuous connection between devices or magical props.",
+      "oneShot": false,
+      "focusHeight": 0.8,
+      "cameraDistance": 6,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "MagicBurst",
+      "category": "Energy",
+      "displayName": "Magic burst",
+      "description": "A short starburst and expanding rune ring.",
+      "oneShot": true,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "ChargingEffect",
+      "category": "Energy",
+      "displayName": "Charging effect",
+      "description": "Motes drawn toward a glowing centre.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Portal",
+      "category": "Energy",
+      "displayName": "Portal",
+      "description": "An upright animated rune ring with swirling particles.",
+      "oneShot": false,
+      "focusHeight": 1.1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Teleport",
+      "category": "Energy",
+      "displayName": "Teleport",
+      "description": "A surface ring and vertical sparkle burst.",
+      "oneShot": true,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "PickupBurst",
+      "category": "Feedback",
+      "displayName": "Pickup burst",
+      "description": "A warm sparkle burst when an object is collected.",
+      "oneShot": true,
+      "focusHeight": 0.8,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "HealingGlow",
+      "category": "Feedback",
+      "displayName": "Healing glow",
+      "description": "Gentle rising green motes around a restorative object.",
+      "oneShot": false,
+      "focusHeight": 0.7,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "ObjectDissolve",
+      "category": "Feedback",
+      "displayName": "Object dissolve",
+      "description": "Pixel dissolve on a sample block. Assign the included dissolve material to your own prop.",
+      "oneShot": true,
+      "focusHeight": 0.7,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Spawn",
+      "category": "Feedback",
+      "displayName": "Spawn",
+      "description": "A sample block reveals through pixels and rising stars.",
+      "oneShot": true,
+      "focusHeight": 0.7,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Despawn",
+      "category": "Feedback",
+      "displayName": "Despawn",
+      "description": "A sample block dissolves into a brief sparkle cloud.",
+      "oneShot": true,
+      "focusHeight": 0.7,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "FloatingDust",
+      "category": "Atmosphere",
+      "displayName": "Floating dust",
+      "description": "Slow drifting dust in a small volume.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "FootstepDust",
+      "category": "Atmosphere",
+      "displayName": "Footstep dust",
+      "description": "A low dust puff for a footfall or small surface movement.",
+      "oneShot": true,
+      "focusHeight": 0.3,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "ColdBreath",
+      "category": "Atmosphere",
+      "displayName": "Cold breath",
+      "description": "A short repeating vapour puff from a character or creature.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "Fireflies",
+      "category": "Atmosphere",
+      "displayName": "Fireflies",
+      "description": "Warm glowing points drifting through a small volume.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "InsectSwarm",
+      "category": "Atmosphere",
+      "displayName": "Insect swarm",
+      "description": "Tiny winged sprites circulating near a prop.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 4,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "FallingDebris",
+      "category": "Atmosphere",
+      "displayName": "Falling debris",
+      "description": "Small drifting chips and dust beneath an unstable ceiling.",
+      "oneShot": false,
+      "focusHeight": 1,
+      "cameraDistance": 5,
+      "previewRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}
